@@ -1,0 +1,102 @@
+.map {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+
+  label {
+    background-color: #f8f9fa;
+  }
+
+  &>p {
+    padding: 5px;
+    font-size: 12px;
+    color: #999;
+  }
+}
+
+#myMap {
+  margin: 0 auto;
+  width: 80%;
+  height: 562px;
+}
+
+.allwidth {
+  width: 100%;
+}
+
+.ant-layout-content {
+  padding-bottom: 100px;
+
+  .briefdata {
+    .briefdata-data {
+      display: flex;
+      justify-content: space-around;
+
+      &>div {
+        text-align: center;
+      }
+
+      span {
+        font-weight: 600;
+      }
+
+      &>div>div>div {
+        font-size: 20px;
+        color: #000;
+      }
+
+      &>div:nth-child(1) {
+        span {
+          color: #e83132;
+        }
+
+      }
+
+      &>div:nth-child(2) {
+        span {
+          color: #10aeb5;
+        }
+
+      }
+
+      &>div:nth-child(3) {
+        span {
+          color: #4d5054;
+        }
+
+      }
+
+      &>div:nth-child(4) {
+        span {
+          color: #ff6a57;
+        }
+
+      }
+    }
+  }
+  .ant-table table {
+    border-spacing: 4px;
+  }
+  .ant-table-row {
+    border: 1px solid #fff;
+    margin: 5px 0;
+    &>.ant-table-cell:nth-child(1){
+      width: 200px;
+      background-color: #13c2c2;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    .ant-table-cell {
+      margin: 5px 0;
+      padding: 10px 16px;
+    }
+  }
+
+  .maptable {
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
